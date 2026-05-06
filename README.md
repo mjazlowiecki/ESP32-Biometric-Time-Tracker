@@ -27,6 +27,8 @@ The hardware was designed from scratch using **Altium Designer**.
 
 > 📄 **View Schematics:** [Hardware/SystemRCP_Schematic_Diagram.pdf](Hardware/SystemRCP_Schematic_Diagram.pdf)
 
+> 📄 **View PDB Layout:** [Hardware/PCB_Layout.pdf](Hardware/PCB_Layout.pdf)
+
 ![PCB Layout](Hardware/PCB_Layout.pdf) 
 
 ![Inside the device, Top](Docs/Images/Interior_Top_Art.png) 

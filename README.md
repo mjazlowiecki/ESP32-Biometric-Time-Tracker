@@ -40,9 +40,11 @@ Developed strictly using **ESP-IDF** (FreeRTOS based).
 
 ## 🚀 How to build
 This project uses the standard ESP-IDF CMake build system.
-1. Clone the repository.
-2. Open in VS Code with ESP-IDF extension.
-3. Run `idf.py build` and `idf.py flash`.
+1. Clone this repository.
+2. Navigate to the components folder: `cd Software/components`
+3. Clone the u8g2 library: `git clone https://github.com/olikraus/u8g2.git`
+4. Open the project in VS Code with the ESP-IDF extension.
+5. Run `idf.py build` and `idf.py flash`.
 
 ## 🎓 About
 This project was initially developed as an academic assignment (Grade: 5.0) and is currently being expanded into a cloud-connected IoT system.

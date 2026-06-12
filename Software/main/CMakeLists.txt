@@ -1,5 +1,16 @@
 idf_component_register(
-    SRCS "main.c"
+    SRCS
+        "main.c"
+        "rtc.c"
+        "fingerprint.c"
+        "display.c"
+        "session.c"
+        "config.c"
     INCLUDE_DIRS "."
-    REQUIRES u8g2 driver esp_driver_i2c esp_timer fatfs esp_driver_sdspi esp_driver_sdmmc
-    )
+    REQUIRES
+        driver
+        esp_timer
+        fatfs
+        sdmmc
+        u8g2 
+)
